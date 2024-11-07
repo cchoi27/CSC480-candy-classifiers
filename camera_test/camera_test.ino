@@ -260,4 +260,8 @@ void loop()
       theCamera.end();
       usr_str = "";
     }
+  else if (usr_str == "reset"){
+    take_picture_count = 0;
+    usr_str = "";  
+  }
 }
